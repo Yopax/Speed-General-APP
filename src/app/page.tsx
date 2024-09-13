@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <main className="w-screen h-screen">
-        <div className="h-[20%] border border-emerald-700">
+        <div className="h-[20%]">
           <General01 />
           <General02 />
         </div>
