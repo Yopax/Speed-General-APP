@@ -1,9 +1,12 @@
 import React from "react";
+import TabGeneral from "./00_01_TAB/TabGeneral";
 
 function General02() {
   return (
     <>
-      <div className="h-[80%] bg-emerald-400 text-center">C-BN-02</div>
+      <div className="h-[80%] w-full">
+        <TabGeneral />
+      </div>
     </>
   );
 }
